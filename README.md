@@ -9,7 +9,7 @@
   :init
   (setq default-input-method "pyim")
   :config
-(require 'pyim-huma)
+  (require 'pyim-huma)
   ;;----'默认码表'
   (pyim-default-scheme 'huma)
 )
