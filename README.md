@@ -10,7 +10,12 @@
   (setq default-input-method "pyim")
   :config
   (require 'pyim-humadict)
+  (pyim-humadict-enable)
   ;;----'默认码表'
   (pyim-default-scheme 'huma)
+(define-key pyim-mode-map ";"
+  (lambda ()
+    (interactive)
+    (pyim-select-word-by-number 2))) ; 使用 ;上屏副选
 )
 ```
