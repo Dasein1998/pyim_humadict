@@ -12,6 +12,12 @@
       :prefer-trigger-chars nil))
 
 ;;;###autoload
+(defun pyim-humadict-enable ()
+  "Add huma dict to pyim."
+  (interactive)
+  (let* ((dir (file-name-directory
+               (locate-library "pyim-humadict.el")))
+         (file (concat dir "pyim-humadict.pyim")))))
 ;; * Footer
 
 (provide 'pyim-humadict)
