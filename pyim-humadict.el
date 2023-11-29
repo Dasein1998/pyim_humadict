@@ -12,7 +12,7 @@
       :code-maximum-length 4))
 
 ;;;###autoload
-(defun pyim-huma-enable ()
+(defun pyim-humadict-enable ()
   "Add huma dict to pyim."
   (interactive)
   (let* ((dir (file-name-directory
