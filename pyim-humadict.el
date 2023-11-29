@@ -9,7 +9,8 @@
       :code-prefix-history ("_")
       :code-split-length 4
       :code-maximum-length 4
-      :prefer-trigger-chars nil))
+      :prefer-triggers nil
+      :cregexp-support-p t))
 
 ;;;###autoload
 (defun pyim-humadict-enable ()
