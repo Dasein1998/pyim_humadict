@@ -16,8 +16,8 @@
   "Add huma dict to pyim."
   (interactive)
   (let* ((dir (file-name-directory
-               (locate-library "pyim-huma.el")))
-         (file (concat dir "pyim-huma.pyim")))))
+               (locate-library "pyim-humadict.el")))
+         (file (concat dir "pyim-humadict.pyim")))))
 
 ;; * Footer
 
