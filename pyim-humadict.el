@@ -8,7 +8,8 @@
       :code-prefix "huma/"
       :code-prefix-history ("_")
       :code-split-length 4
-      :code-maximum-length 4))
+      :code-maximum-length 4
+      :prefer-trigger-chars nil))
 
 ;;;###autoload
 (defun pyim-humadict-enable ()
