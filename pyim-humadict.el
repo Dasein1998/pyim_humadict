@@ -2,7 +2,7 @@
 (pyim-scheme-add
     '(huma
       :document "虎码方案"
-      :class huma
+      :class xingma
       :first-chars "abcdefghijklmnopqrstuvwxyz"
       :rest-chars "abcdefghijklmnopqrstuvwxyz"
       :code-prefix "huma/"
