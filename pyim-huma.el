@@ -10,8 +10,6 @@
       :code-prefix-history ("_")
       :code-split-length 4
       :code-maximum-length 4))
-  ;;----'默认码表'
-  (pyim-default-scheme 'huma)
 
 ;;;###autoload
 (defun pyim-huma-enable ()
