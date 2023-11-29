@@ -21,4 +21,4 @@
 
 ;; * Footer
 
-(provide 'pyim-huma)
+(provide 'pyim-humadict)
