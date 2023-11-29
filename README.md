@@ -9,17 +9,7 @@
   :init
   (setq default-input-method "pyim")
   :config
-  (pyim-scheme-add
-    '(huma
-      :document
-      "虎码方案"
-      :class xingma
-      :code-prefix "huma/"
-      :first-chars "abcdefghijklmnopqrstuvwxyz"
-      :rest-chars "abcdefghijklmnopqrstuvwxyz"
-      :code-prefix-history ("_")
-      :code-split-length 4
-      :code-maximum-length 4))
+(require 'pyim-huma)
   ;;----'默认码表'
   (pyim-default-scheme 'huma)
 )
