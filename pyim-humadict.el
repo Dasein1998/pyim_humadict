@@ -1,3 +1,4 @@
+-*- lexical-binding: t; -*-
 (require 'pyim)
 (pyim-scheme-add
     '(huma
