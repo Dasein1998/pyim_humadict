@@ -18,14 +18,9 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-
-
-
-(provide 'pyim-humadict)
-;;; pyim-humadict.el ends here
-
-;;; pyim-humadict.el
 (require 'pyim)
+(require 'pyim-dict)
+(require 'pyim-scheme)
 (pyim-scheme-add
     '(huma
       :document "虎码方案"
@@ -48,3 +43,7 @@
          (file (concat dir "pyim-humadict.pyim")))))
 
 (provide 'pyim-humadict)
+
+;;; pyim-humadict.el ends here
+
+
