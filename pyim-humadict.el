@@ -1,4 +1,3 @@
--*- lexical-binding: t; -*-
 (require 'pyim)
 (pyim-scheme-add
     '(huma
@@ -20,6 +19,5 @@
   (let* ((dir (file-name-directory
                (locate-library "pyim-humadict.el")))
          (file (concat dir "pyim-humadict.pyim")))))
-;; * Footer
 
 (provide 'pyim-humadict)
