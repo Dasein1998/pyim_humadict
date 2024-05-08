@@ -18,6 +18,8 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+;;; Code:
+;; * 代码   
 (require 'pyim)
 (require 'pyim-dict)
 (require 'pyim-scheme)
@@ -42,6 +44,7 @@
                (locate-library "pyim-humadict.el")))
          (file (concat dir "pyim-humadict.pyim")))))
 
+;; * Footer
 (provide 'pyim-humadict)
 
 ;;; pyim-humadict.el ends here
