@@ -1,3 +1,4 @@
+;;; pyim-humadict.el
 (require 'pyim)
 (pyim-scheme-add
     '(huma
