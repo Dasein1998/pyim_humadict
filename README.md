@@ -1,4 +1,4 @@
-# huma_pyim
+# pyim-humadict
 虎码单字输入方案在Emacs中的pyim版本
 
 ## 使用 
